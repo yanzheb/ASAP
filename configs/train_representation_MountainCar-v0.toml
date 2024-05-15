@@ -46,6 +46,3 @@ val_collect_samples = 20_000
 # Testing buffer size
 test_bs = 40_000
 test_collect_samples = 20_000
-
-fetch_perc = -1
-fetch_n = 10_000
