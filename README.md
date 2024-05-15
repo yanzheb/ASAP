@@ -19,7 +19,7 @@ The hyperparameters used to train ASAP are stored in the folder "configs."
   title        = {{ASAP:} Attention-Based State Space Abstraction for Policy Summarization},
   booktitle    = {Proc. of ACML},
   year         = {2023},
-  url          = {<https://proceedings.mlr.press/v222/bekkemoen24a.html}>,
-  bibsource    = {dblp computer science bibliography, <https://dblp.org}>
+  url          = {https://proceedings.mlr.press/v222/bekkemoen24a.html},
+  bibsource    = {dblp computer science bibliography, <https://dblp.org}
 }
 ```
