@@ -39,16 +39,6 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def linear_schedule(start_e: float, end_e: float, duration: int,
-                    t: int) -> float:
-    if duration == 0:
-        return 0
-    if t < 0:
-        return start_e
-    slope = (end_e - start_e) / duration
-    return max(slope * t + start_e, end_e)
-
-
 def save(folder, envs, model) -> None:
     if hasattr(envs.envs[0], "obs_rms"):
         envs_param = defaultdict(list)
