@@ -2,7 +2,6 @@ from pathlib import Path
 import random
 import numpy as np
 import torch
-import statistics
 import argparse
 from copy import deepcopy
 from collections import defaultdict
